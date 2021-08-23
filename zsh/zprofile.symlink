@@ -16,3 +16,7 @@ elif [[ -f /home/linuxbrew/.linuxbrew ]]; then
     export INFOPATH="$HOMEBREW_PREFIX/share/info:${INFOPATH}";
     export PATH="$HOMEBREW_PREFIX/bin:$HOMEBREW_PREFIX/sbin${PATH+:$PATH}";
 fi
+
+if [[ -f /usr/local/bin/pyenv ]]; then
+   eval "$(pyenv init --path)"
+fi
