@@ -1,8 +1,21 @@
 .netrwhist
 npm-debug.log
+.DS_Store
 
 plug.vim.old
 
+config/.mono
+config/NuGet
+config/coc
+config/configstore
+config/filezilla
+config/gtk-2.0
+config/htop
+config/iterm2
+config/mudlet
+config/stetic
+config/wireshark
+config/xbuild
 config/nvim/spell
 config/nvim/shada
 config/nvim/plugged
